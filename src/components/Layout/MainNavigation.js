@@ -17,6 +17,11 @@ const MainNavigation = (props) => {
         <nav>
           <ul>
             <li>
+              <Link to="/library">
+                <p style={{ color: "black", fontSize: "16px" }}>Library</p>
+              </Link>
+            </li>
+            <li>
               <Link to="/readinglog">
                 <p style={{ color: "black", fontSize: "16px" }}>Reading Log</p>
               </Link>

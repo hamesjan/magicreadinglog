@@ -1,17 +1,35 @@
 .home__outer-wrapper{
-    padding: 16px;
     display: block;
+    padding: 10px 32px;
+    height: 90vh;
+    background-color:#6a996e;
 }
 
 .home__header-text{
     font-size: 32px;
-    color: #6a996e;
+    color: black;
     font-weight: 500;
 }
 
 .home__sub-header-text{
     font-size: 20px;
-    color: #6a996e;
+    color: black;
     font-weight: 400;
 
+}
+
+.home__main_button_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.home__main_button{
+    border: solid black 3px;
+    border-radius: 32px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    padding: 40px;
 }

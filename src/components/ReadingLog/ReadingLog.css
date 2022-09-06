@@ -1,0 +1,12 @@
+.reading-log__outer-wrapper{
+    padding: 16px;
+    display: block;
+    background-color:#6a996e;
+    height: 90vh;
+    margin: auto;
+}
+
+.reading-log__search-book-input{
+    padding: 16px;
+    font-size: 20px;
+}
