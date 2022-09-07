@@ -1,0 +1,22 @@
+mutation createTodo {
+  createTodo(
+    input: {
+      name: "Build an API"
+      description: "Build a serverless API with Amplify and GraphQL"
+    }
+  ) {
+    id
+    name
+    description
+  }
+}
+
+query listTodos {
+  listTodos {
+    items {
+      id
+      description
+      name
+    }
+  }
+}

@@ -1,8 +1,13 @@
 import "./Profile.css";
 
+import { Button, Heading } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css";
+
 const Profile = (props) => {
   return (
     <div className="profile__outer-wrapper">
+      <Heading level={1}>Hello {props.username}</Heading>
+      <Button onClick={props.signOut}>Sign out</Button>
       <div className="profile__table-wrapper">
         <div className="profile__table-left-column">
           <img
